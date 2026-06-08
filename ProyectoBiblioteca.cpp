@@ -91,5 +91,7 @@ public:
 int main()
 {
     
+    Biblioteca biblioteca;
+    int opcion;
     
 }
