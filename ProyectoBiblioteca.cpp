@@ -39,6 +39,52 @@ class Libro
 
 class Biblioteca{
 
+    private:
+    Libro libros[100];
+    int cantidadLibros;
+
+public:
+
+    Biblioteca()
+    {
+        cantidadLibros = 0;
+    }
+
+   
+    void agregarLibro(Libro libro)
+    {
+        if(cantidadLibros < 100)
+        {
+            libros[cantidadLibros] = libro;
+            cantidadLibros++;
+        }
+        else
+        {
+            cout << "La biblioteca esta llena." << endl;
+        }
+    }
+
+    
+    void mostrarLibros()
+    {
+        if(cantidadLibros == 0)
+        {
+            cout << "\nNo hay libros registrados.\n";
+            return;
+        }
+
+        for(int i = 0; i < cantidadLibros; i++)
+        {
+            cout << "\nLibro #" << i + 1 << endl;
+            libros[i].mostrarInformacion();
+        }
+    }
+
+    
+    int contarLibros()
+    {
+        return cantidadLibros;
+    }
 
 };
 
