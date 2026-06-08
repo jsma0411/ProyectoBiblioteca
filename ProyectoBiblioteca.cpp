@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * @class Libro
+ * @brief Representa un libro dentro de la biblioteca.
+ */
 class Libro
 {
 
@@ -12,6 +16,10 @@ class Libro
     int anio;
 
     public:
+
+        /**
+        * @brief Constructor por defecto.
+        */
         Libro()
         {
             titulo = "";
@@ -19,6 +27,12 @@ class Libro
             anio = 0;
         }
         
+        /**
+        * @brief Constructor con parámetros.
+        * @param t Título del libro.
+        * @param a Autor del libro.
+        * @param an Año de publicación.
+        */
         Libro(string t, string a, int an)
         {
             titulo = t;
@@ -26,6 +40,9 @@ class Libro
             anio = an;
         }
 
+        /**
+        * @brief Muestra la información del libro.
+        */
         void mostrarInformacion()
         {
             cout << "Titulo: " << titulo << endl;
@@ -37,6 +54,10 @@ class Libro
 
 };
 
+/**
+ * @class Biblioteca
+ * @brief Administra una colección de libros.
+ */
 class Biblioteca{
 
     private:
@@ -45,12 +66,18 @@ class Biblioteca{
 
 public:
 
+    /**
+     * @brief Constructor de la biblioteca.
+     */
     Biblioteca()
     {
         cantidadLibros = 0;
     }
 
-   
+    /**
+     * @brief Agrega un libro a la biblioteca.
+     * @param libro Libro a agregar.
+     */
     void agregarLibro(Libro libro)
     {
         if(cantidadLibros < 100)
@@ -64,7 +91,9 @@ public:
         }
     }
 
-    
+    /**
+     * @brief Muestra todos los libros registrados.
+     */
     void mostrarLibros()
     {
         if(cantidadLibros == 0)
@@ -80,7 +109,10 @@ public:
         }
     }
 
-    
+    /**
+     * @brief Cuenta los libros almacenados.
+     * @return Cantidad de libros.
+     */
     int contarLibros()
     {
         return cantidadLibros;
@@ -88,6 +120,9 @@ public:
 
 };
 
+/**
+ * @brief Función principal.
+ */
 int main()
 {
     
