@@ -103,7 +103,31 @@ int main()
         cout << "4. Salir" << endl;
         cout << "Seleccione una opcion: ";
         cin >> opcion;
-        
+
+        switch(opcion)
+        {
+            case 1:
+            {
+                string titulo;
+                string autor;
+                int anio;
+
+                cout << "\nTitulo (sin espacios): ";
+                cin >> titulo;
+
+                cout << "Autor (sin espacios): ";
+                cin >> autor;
+
+                cout << "Anio: ";
+                cin >> anio;
+
+                Libro libro(titulo, autor, anio);
+                biblioteca.agregarLibro(libro);
+
+                cout << "\nLibro agregado correctamente." << endl;
+                break;
+        }   }
+
     }while(opcion =! 4);
 
 }
