@@ -94,4 +94,16 @@ int main()
     Biblioteca biblioteca;
     int opcion;
     
+     do
+    {
+        cout << "\n===== BIBLIOTECA =====" << endl;
+        cout << "1. Agregar libro" << endl;
+        cout << "2. Mostrar libros" << endl;
+        cout << "3. Contar libros" << endl;
+        cout << "4. Salir" << endl;
+        cout << "Seleccione una opcion: ";
+        cin >> opcion;
+        
+    }while(opcion =! 4);
+
 }
