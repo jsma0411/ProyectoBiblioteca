@@ -94,8 +94,7 @@ int main()
     Biblioteca biblioteca;
     int opcion;
     
-     do
-    {
+     do{
         cout << "\n===== BIBLIOTECA =====" << endl;
         cout << "1. Agregar libro" << endl;
         cout << "2. Mostrar libros" << endl;
@@ -136,7 +135,8 @@ int main()
                 cout << "\nTotal de libros: "
                      << biblioteca.contarLibros()
                      << endl;
-                break;
+                     break;
+            
 
              case 4:
                 cout << "\nSaliendo..." << endl;
@@ -144,8 +144,9 @@ int main()
 
             default:
                 cout << "\nOpcion invalida." << endl;
+                break;
         } 
 
-    }while(opcion =! 4);
+    }while(opcion != 4);
 
 }
