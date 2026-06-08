@@ -126,7 +126,19 @@ int main()
 
                 cout << "\nLibro agregado correctamente." << endl;
                 break;
-        }   }
+           }
+
+           case 2:
+                biblioteca.mostrarLibros();
+                break;
+
+            case 3:
+                cout << "\nTotal de libros: "
+                     << biblioteca.contarLibros()
+                     << endl;
+                break;
+
+        } 
 
     }while(opcion =! 4);
 
