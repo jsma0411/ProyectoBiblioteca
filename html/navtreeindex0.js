@@ -1,0 +1,24 @@
+var NAVTREEINDEX0 =
+{
+"_proyecto_biblioteca_8cpp.html":[2,0,0],
+"_proyecto_biblioteca_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[2,0,0,2],
+"annotated.html":[1,0],
+"class_biblioteca.html":[1,0,0],
+"class_biblioteca.html#a22ad560d1f1aef82e3733071115e6c6b":[1,0,0,2],
+"class_biblioteca.html#a5e12ea4e7a4edb14d210a41708fc1c10":[1,0,0,0],
+"class_biblioteca.html#a785b3cef8a260aa21383a85287bb9a12":[1,0,0,1],
+"class_biblioteca.html#ac8babfeb6fb835486391d56b466da646":[1,0,0,3],
+"class_libro.html":[1,0,1],
+"class_libro.html#a49c3aa8293efb70c5fc44e61c403b97b":[1,0,1,2],
+"class_libro.html#a84dba8a3c1498545309a73acc28c0131":[1,0,1,1],
+"class_libro.html#a9892c534a717676fdd96b48bb2e0f8bc":[1,0,1,0],
+"classes.html":[1,1],
+"files.html":[2,0],
+"functions.html":[1,2,0],
+"functions_func.html":[1,2,1],
+"globals.html":[2,1,0],
+"globals_func.html":[2,1,1],
+"index.html":[],
+"md__r_e_a_d_m_e.html":[0],
+"pages.html":[]
+};
