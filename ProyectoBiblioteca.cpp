@@ -138,6 +138,12 @@ int main()
                      << endl;
                 break;
 
+             case 4:
+                cout << "\nSaliendo..." << endl;
+                break;
+
+            default:
+                cout << "\nOpcion invalida." << endl;
         } 
 
     }while(opcion =! 4);
