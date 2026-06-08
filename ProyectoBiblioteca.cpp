@@ -31,7 +31,7 @@ class Libro
         * @brief Constructor con parámetros.
         * @param t Título del libro.
         * @param a Autor del libro.
-        * @param an Año de publicación.
+        * @param an anio de publicación.
         */
         Libro(string t, string a, int an)
         {
@@ -47,7 +47,7 @@ class Libro
         {
             cout << "Titulo: " << titulo << endl;
             cout << "Autor: " << autor << endl;
-            cout << "Año: " << anio << endl;
+            cout << "anio: " << anio << endl;
         }
 
      
